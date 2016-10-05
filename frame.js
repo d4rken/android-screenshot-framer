@@ -4,7 +4,7 @@ var glob = require("glob");
 var Rx = require('rxjs/Rx');
 var argv = require('yargs').argv;
 
-glob(argv.path + "/**/*.png", {}, function (err, files) {
+glob(argv.path, {}, function (err, files) {
     if (err) throw err;
     Rx.Observable.from(files)
         .subscribe(
