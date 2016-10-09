@@ -57,7 +57,7 @@ var DEVICES = [
         actualResolution: [1200, 1920],
         density: 'XHDPI',
         landRes: ['shadow', 'back', 'fore'],
-        landOffset: [260, 200],
+        landOffset: [260, 105],
         portRes: ['shadow', 'back', 'fore'],
         portOffset: [244, 326],
         portSize: [800, 1280],
